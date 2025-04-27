@@ -1,0 +1,14 @@
+# requirements.txt
+
+# --- IMPORTANT ---
+# GDAL and Rasterio require the system GDAL library.
+# Using `conda install gdal rasterio -c conda-forge` is HIGHLY recommended.
+# If not using Conda, ensure system GDAL is installed *before* pip installing.
+# See Rasterio/GDAL installation docs for details.
+# ---------------
+
+numpy
+scipy
+rasterio
+GDAL
+psutil
